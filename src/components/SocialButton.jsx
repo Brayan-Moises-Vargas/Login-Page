@@ -5,10 +5,10 @@ library.add(fab)
 
 const SocialButton = ({icon, icon2, icon3}) => {
   return (
-    <div className='icons icon-color fa-xl'>
-      <FontAwesomeIcon icon={['fab', icon ]} />
-      <FontAwesomeIcon icon={['fab', icon2 ]} />
-      <FontAwesomeIcon icon={['fab', icon3 ]} />
+    <div className='icons fa-xl'>
+      <FontAwesomeIcon className='icon-color' icon={['fab', icon ]} />
+      <FontAwesomeIcon className='icon-color' icon={['fab', icon2 ]} />
+      <FontAwesomeIcon className='icon-color' icon={['fab', icon3 ]} />
     </div>
   )
 }

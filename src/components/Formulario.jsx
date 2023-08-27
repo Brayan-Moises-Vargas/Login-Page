@@ -76,7 +76,7 @@ const Forms = ({setAlert}) => {
                 <div className="form-group p-2">
                     <label className="p-1">Email</label>
                     <input
-                    type="text"
+                    type="email"
                     name="email"
                     className="form-control"
                     placeholder="correo@correo.cl"
@@ -88,7 +88,7 @@ const Forms = ({setAlert}) => {
                 <div className="form-group p-2">
                     <label className="p-1">Contraseña</label>
                     <input
-                    type="text"
+                    type="password"
                     name="password"
                     className="form-control"
                     placeholder="Contraseña"
@@ -100,7 +100,7 @@ const Forms = ({setAlert}) => {
                 <div className="form-group p-2">
                     <label className="p-1">Confirmar contraseña</label>
                     <input
-                    type="text"
+                    type="password"
                     name="confirmPassword"
                     className="form-control"
                     placeholder="Validar contraseña"
